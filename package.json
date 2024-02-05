@@ -1,0 +1,15 @@
+{
+  "name": "helper-functions",
+  "version": "0.0.0",
+  "description": "user helper functions",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "cheerio": "^1.0.0-rc.12",
+    "formidable": "^3.5.1",
+    "nodemailer": "^6.9.8",
+    "sharp": "^0.32.6"
+  },
+  "repository": "github:rovsen-24/js-helper-functions",
+  "author": "rovshen",
+  "license": "MIT"
+}

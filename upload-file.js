@@ -15,7 +15,7 @@ http
         }
         let oldPath = files.filetoupload[0].filepath;
         let newPath =
-          "/home/rovshen/Pictures/" + files.filetoupload[0].originalFilename;
+          "/your/path to file/" + files.filetoupload[0].originalFilename;
         fs.rename(oldPath, newPath, (err) => {
           if (err) throw err;
           res.writeHead(200, { "Content-Type": "text/plain" });
